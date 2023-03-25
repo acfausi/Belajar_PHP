@@ -12,7 +12,7 @@
         <table >
             <tr>
                 <td>Nama</td>
-                <td><input type='text' name='nama' style="width:100%"></td>
+                <td><input type='text' name='nama'></td>
             </tr>
             <tr>
                 <td>Pekerjaan</td>
@@ -45,7 +45,7 @@
             <tr>
                 <td>Agama</td>
                 <td>
-                    <select name='agama' style="width:100%">
+                    <select name='agama'>
                         <option>---Pilih Agama---</option>
                         <option value='Islam'>Islam</option>
                         <option value='Non_Islam'>Non Islam</option>
