@@ -1,4 +1,5 @@
 <?php
+// class pegawai
 class Pegawai{
     protected $nip;
     public $nama;
@@ -24,7 +25,7 @@ class Pegawai{
             case 'Asisten Manager': $gapok = 10000000; break;
             case 'Kepala Bagian': $gapok = 7000000; break;
             case 'Staff': $gapok = 5000000; break;
-            default: $gapok ;
+            default:
         }
         return $gapok;
     }
