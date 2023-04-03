@@ -1,6 +1,6 @@
 <?php
 
-require_once('Methods.php');
+include ('Abstrack.php');
 
 ?>
 <!doctype html>
@@ -19,7 +19,7 @@ require_once('Methods.php');
 </head>
 
 <body>
-<h1>Bentuk 2D</h1>
+<h1> <center> BENTUK 2D </center></h1>
     <table class="table table-striped">
         <thead class="thead-dark">
             <tr>
