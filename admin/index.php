@@ -1,5 +1,8 @@
 <?php
 //memanggil dan memproses file bagian atas
+include_once 'koneksi.php';
+include_once 'models/Produk.php';
+include_once 'models/Jenis_Produk.php';
 include_once 'top.php';
 //memanggil dan memproses file bagian menu
 include_once 'menu.php';
@@ -26,5 +29,5 @@ include_once 'menu.php';
 
 <?php
 //memanggil file bagian bawah
-include_once 'buttom.php';
+include_once 'bottom.php';
 ?>
