@@ -11,7 +11,7 @@ $prod = !empty($idedit) ? $obj_kartu->getKartu($idedit) : array() ;
       <div class="form-group row">
         <label for="text1" class="col-4 col-form-label">Kode</label> 
         <div class="col-8">
-          <input id="kode" name="kode" type="text" class="form-control" value="<?= $prod['kode']?>">
+          <input id="kode_k" name="kode_k" type="text" class="form-control" value="<?= $prod['kode_k']?>">
         </div>
       </div>
       <div class="form-group row">

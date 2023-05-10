@@ -3,7 +3,7 @@ include_once 'koneksi.php';
 include_once 'models/Kartu.php';
 
 //menangkap request form
-$kode = $_POST['kode'];
+$kode = $_POST['kode_k'];
 $nama = $_POST['nama'];
 $diskon = $_POST['diskon'];
 $iuran = $_POST['iuran'];

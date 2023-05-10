@@ -13,7 +13,7 @@ class Pelanggan{
         return $rs;
     }
     public function getPelanggan($id){
-        $sql = "SELECT a.*, k.kode FROM pelanggan a LEFT JOIN kartu k ON k.id = a.kartu_id WHERE a.id";
+        $sql = "SELECT a.*, k.diskon FROM pelanggan a LEFT JOIN kartu k ON k.id = a.kartu_id WHERE a.id";
         $ps = $this->koneksi->prepare($sql);
         $ps->execute([$id]);
         $rs = $ps->fetch();

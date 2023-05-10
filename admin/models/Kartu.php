@@ -21,12 +21,12 @@ public function Kartu(){
         return $rs;
     }
     public function simpan($data){
-        $sql = "INSERT INTO kartu(kode, nama, diskon, iuran) VALUES (?,?,?,?)";
+        $sql = "INSERT INTO kartu(kode_k, nama, diskon, iuran) VALUES (?,?,?,?)";
         $ps = $this->koneksi->prepare($sql);
         $ps->execute($data); 
     }
     public function ubah($data){
-        $sql = "UPDATE kartu SET kode=?, nama=?, diskon=?, iuran=?
+        $sql = "UPDATE kartu SET kode_k=?, nama=?, diskon=?, iuran=?
         WHERE id=?";
         $ps = $this->koneksi->prepare($sql);
         $ps->execute($data);

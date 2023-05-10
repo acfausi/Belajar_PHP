@@ -57,7 +57,7 @@ $kartu = $model->Kartu();
                                         ?>
                                         <tr>
                                             <td><?=$no?></td>
-                                            <td><?=$row['kode']?></td>
+                                            <td><?=$row['kode_k']?></td>
                                             <td><?=$row['nama']?></td>
                                             <td><?=$row['diskon']?></td>
                                             <td><?=$row['iuran']?></td>
