@@ -3,6 +3,7 @@
 include_once 'koneksi.php';
 include_once 'models/Produk.php';
 include_once 'models/Kartu.php';
+include_once 'models/Member.php';
 include_once 'models/Pesanan.php';
 include_once 'models/Pelanggan.php';
 include_once 'models/Jenis_Produk.php';
